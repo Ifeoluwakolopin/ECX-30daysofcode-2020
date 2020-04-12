@@ -4,9 +4,11 @@ Created on Fri Apr 10  14:14:20 2020
 
 @author: TheAre
 """
-def abundant(num):
+def abundant(num: int):
 
-    '''This takes in a number and returns whether or not it is abundant'''
+    '''This takes in a number and returns whether or not it is abundant
+    Note: An abundant number is one which the sum of the proper divisors is greater than the number itself'''
+    
     divisors = 0
     for i in range(1,num):
         if num%i == 0:
