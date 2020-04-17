@@ -8,7 +8,7 @@ def binary_adder(num1, num2):
 
     '''This function takes in two binary numbers and returns the sum of the two numbers
     in binary
-    Note: The numbers can be put in string format or int format. THe function is non-specific of the type'''
+    '''
 
     if type(num1) and type(num2) == str:
 
@@ -43,12 +43,12 @@ def binary_adder(num1, num2):
 
 
 print(binary_adder('11', '1'))
-print(binary_adder('10', '10'))
+print(binary_adder('100', '10'))
 print(binary_adder('111', '111'))
-print(binary_adder('1111111', '1'))
+
 print(binary_adder(100, 1101))
 print(binary_adder(1,1))
 
-'''The other elif method wasn't really necessary I just put it there as another method of solving
-    the question; since it doesn't count as importing another library.
+'''The elif part wasn't really necessary I just put it there as another method of solving
+    the question; since it doesn't count as importing a module.
     Cheers!'''
