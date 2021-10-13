@@ -74,6 +74,3 @@ print(intensive_properties((101325,298),('heat', 'oecx')))
 print(intensive_properties((345,100),('Pa', 'oR')))
 
 print(intensive_properties((126473,478),('mmHg', 'oC')))
-
-
-
