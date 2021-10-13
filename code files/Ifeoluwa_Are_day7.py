@@ -4,6 +4,7 @@ Created on Wed Apr  1 14:23:07 2020
 
 @author: TheAre
 """
+#Code needs to be commented on for readability
 
 def captains_room(room_list):
     
